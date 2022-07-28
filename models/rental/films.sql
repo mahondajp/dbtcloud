@@ -1,0 +1,1 @@
+select film.title, film.description , film.film_id, film_actor.actor_id from film , film_actor where film.film_id = film_actor.film_id 

@@ -1,0 +1,20 @@
+version: 2
+
+models:
+    - name: films
+      description: "film and film_actor"
+      columns:
+          - name: film_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+    - name: actors
+      description: "actor and film_actor"
+      columns:
+          - name: actor_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null

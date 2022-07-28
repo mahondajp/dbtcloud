@@ -1,0 +1,1 @@
+select * from customer, address where address.address_id = customer.address_id 
