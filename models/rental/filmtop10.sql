@@ -1,0 +1,1 @@
+select rental_rate, release_year, length, rating, title  from film limit 10 ; 
